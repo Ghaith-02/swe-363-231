@@ -45,7 +45,7 @@
         }
 
         code {
-            color: blueviolet;
+            color: blue;
         }
     </style>
 </head>
@@ -95,9 +95,9 @@
                 if (gameEnded != true) {
                     if (cell.innerText == "") {
                         cell.innerText = turn
-                        cell.style.background="blue"
+                        cell.style.background="orange"
                         if(turn=="X"){
-                        cell.style.background="red"
+                        cell.style.background="green"
                         }
                         let value = cell.getAttribute("value")
                         cellsArray[value] = turn
