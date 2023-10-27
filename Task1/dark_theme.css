@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
     color: blanchedalmond;
     font-size: xx-large;
+    text-align: center;
 }
 a:visited {
     color: darkred;
@@ -31,5 +32,6 @@ section{
 }
 main p {
     font-size: large;
+    text-align: center;
 
 }
