@@ -133,45 +133,7 @@
                     gameEnded = true
                 }
             }
-           // document.getElementById("Reset").addEventListener("click", function () {
-             //   reset();
-            //});
-          /*  function keboardClick(event){
-                if (event.key == ' ') {
-                    addLetter(board[index]);
-                }
-                else if (event.key == 'ArrowUp') { 
-                    if (board[index].innerText == "") board[index].style.background="beige";
-                    else if (board[index].innerText == "X") board[index].style.background="green";
-                    else  board[index].style.background="orange";
-                    index = (index + 6) % 9; 
-                    board[index].style.background="blanchedalmond";
-                }
-                else if (event.key == 'ArrowDown')  {
-                    if (board[index].innerText == "") board[index].style.background="beige";
-                    else if (board[index].innerText == "X") board[index].style.background="green";
-                    else  board[index].style.background="orange";
-                    index = (index + 3) % 9; 
-                    board[index].style.background="blanchedalmond";
-                } 
-                else if (event.key == 'ArrowRight')  {
-                    if (board[index].innerText == "") board[index].style.background="beige";
-                    else if (board[index].innerText == "X") board[index].style.background="green";
-                    else  board[index].style.background="orange";
-                    index = (index + 1) % 9; 
-                    board[index].style.background="blanchedalmond";
-                }
-                else if (event.key == 'ArrowLeft')  {
-                    if (board[index].innerText == "") board[index].style.background="beige";
-                    else if (board[index].innerText == "X") board[index].style.background="green";
-                    else  board[index].style.background="orange";
-                    index = (index + 8) % 9; 
-                    board[index].style.background="blanchedalmond";
-                }  
-                board[index].focus();    
-            } */
-
-
+         
             document.getElementById("Reset").addEventListener("click", (() => {
             const clear = () => {
                 [...board].forEach(Boardcell => {
